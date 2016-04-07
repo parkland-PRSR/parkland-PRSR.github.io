@@ -1,0 +1,133 @@
+body {
+	background-image: url(../img/Drum%20Background.png);
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+hr {
+	border: thin solid #6c9598;
+}
+
+.navigation {
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: 64px;
+}
+.social   {
+}
+#facebook {
+	padding-right: 9px;
+}
+#twitter   {
+	padding-right: 7px;
+}
+.navigation ul li {
+	padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+.logo {
+	padding-top: 38px;
+	padding-bottom: 98px;
+}
+.news {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 30px;
+}
+.news .col-sm-2 p {
+	font-size: 10px;
+}
+.banner {
+	margin-bottom: 30px;
+}
+.news.col-sm-2 .center-block.img-responsive {
+	border: thin solid #6C9598;
+}
+.container {
+}
+.address {
+}
+.footer   {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+	margin-top: 37px;
+}
+.text {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.bands .col-sm-2 img {
+	border: thin solid #6C9598;
+}
+.text .col-sm-4 strong {
+	font-size: 15px;
+}
+.row .col-lg-8 .center-block.img-responsive {
+	border: thin solid #6C9598;
+}
+.col-sm-4 p a {
+	color: #6BBCDA;
+}
+.bands img{
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.bands img:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+#InnkeepersFacebook {
+}
+#innkeepersInstagram {
+	margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .banner {display:none;}
+	.logo {padding-bottom: 15px;}
+	.navigation {padding-bottom: 20px;
+				 font-size:12px; 	
+	}
+	.news {
+	}
+	.social {padding-top: 10px;
+			 padding-bottom: 10px;
+	}
+	.address {padding-top: 10px;
+			  padding-bottom: 10px;
+	}
+	.band {
+	}
+}
