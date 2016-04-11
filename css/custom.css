@@ -118,7 +118,7 @@ li {
     .banner {display:none;}
 	.logo {padding-bottom: 15px;}
 	.navigation {padding-bottom: 20px;
-				 font-size:12px; 	
+				 font-size:10px; 	
 	}
 	.news {
 	}
@@ -128,6 +128,32 @@ li {
 	.address {padding-top: 10px;
 			  padding-bottom: 10px;
 	}
-	.band {
+
+	.Signing { 
+	padding-top: 15px;
+	padding-bottom: 15px;
+ 	}
+	
+	.Recording { 
+	padding-top: 15px;
+	padding-bottom: 15px;
+ 	}
+	
+	.Run { 
+	padding-top: 15px;
+	padding-bottom: 15px;
+ 	}
+	
+	.WPCD { 
+	padding-top: 15px;
+	padding-bottom: 15px;
+ 	}
+	
+	p {
+	display: none;	
+	}
+	
+	strong {
+	font-size: 16px;	
 	}
 }
